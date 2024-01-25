@@ -42,7 +42,8 @@ This CTF is an entire playground and there is more to reverse engineer than the 
 * 12: Figure out where the pre-determined login statement is being made. This is the statement in which is outputted or drawn onto the GUI before the login button and the input box are rendered. 
 * 13: Find the hotkey that is used to exit the menu and kill the current process
 
-> Quiz / Questions To Answer For Level 1
+> Quiz / Questions To Answer For Level 1 <br>
+
 If you want to answer some questions, then here is a good map to do that with.
 
 > **Question 1**: What was the unencrypted & plaintext CTF key?
