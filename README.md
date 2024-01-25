@@ -54,7 +54,7 @@ If you want to answer some questions, then here is a good map to do that with.
 
 > **Question 4**: What was the information block of the CTF?
 
-> **Question 5**: The first log in was crackable in two ways. One of those ways was to switch the logic of the program around. What did you need to do in order to switch it? Answer format - `I changed x to x at` where x is the instructions.
+> **Question 5**: The first log in was crackable in two ways. One of those ways was to switch the logic of the program around. What did you need to do in order to switch it? Answer format - `I changed x to x at` where x is the instructions. Tip: there is a difference between switching the logic and changing the status of a status-variable within the program :D
 
 > **Question 6**: What security systems were used in this CTF?
 
