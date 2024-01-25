@@ -23,7 +23,7 @@ This will be the hardest level yet. It will compress every level together, lock 
 ## What to solve for?
 This CTF is an entire playground and there is more to reverse engineer than the defaults we provide. But we did decide that in order to make it fun, there should be some things that you need to do as `goals` for completing each new level. In this case, we decided to create a simple list.
 
-> Here are your goals for the first level
+> Here are your goals for Level 1
 
 * 1: Find the unencrypted API key 
 * 2: Find the HTTP-BasicAuth formatted username and password
@@ -37,4 +37,32 @@ This CTF is an entire playground and there is more to reverse engineer than the 
 * 10: Figure out a base map of the control flow in the programs first login system. Draw out a pseudo code example of how this works.
 * 11: Find the integer based key used to compare the input license in the GUI. 
 * 12: Figure out where the pre-determined login statement is being made. This is the statement in which is outputted or drawn onto the GUI before the login button and the input box are rendered. 
-* 13: Find the hotkey that is used to exit the menu and kill the current process 
+* 13: Find the hotkey that is used to exit the menu and kill the current process
+
+### Quiz / Questions To Answer For Level 1
+If you want to answer some questions, then here is a good map to do that with.
+
+> Question 1: What was the unencrypted & plaintext CTF key?
+
+> Question 2: What was the basic authentication username and password?
+
+> Question 3: What was the primary API key found dynamically?
+
+> Question 4: What was the information block of the CTF?
+
+> Question 5: The first log in was crackable in two ways. One of those ways was to switch the logic of the program around. What did you need to do in order to switch it? Answer format - `I changed x to x at` where x is the instructions.
+
+> Question 6: What security systems were used in this CTF?
+
+> Question 7: What was the authentication server where the HTTP auth was used?
+
+> Question 8: What protocol was the authentication server in?
+
+> Question 9: On the first login attempt, you may have noticed that the application already outputted that the login failed without you doing anything. What does this mean?
+
+> Question 10: In the login system, there is no plaintext key that you can see. Instead, the key was integer-based. How did this key system work, what did it do, what was the value(s) of the key, and what was the final string key?
+
+> Question 11: What `.text` address held the location of the comparison for the logged-in variable? Remember that this was the pre-set variable that was checked before the initial state of both the input and the button are rendered on the GUI. Tell me how you know this :D
+
+> Question 12:  What key was needed to exit and close the game cheat?
+
