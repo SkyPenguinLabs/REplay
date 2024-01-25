@@ -42,27 +42,27 @@ This CTF is an entire playground and there is more to reverse engineer than the 
 ### Quiz / Questions To Answer For Level 1
 If you want to answer some questions, then here is a good map to do that with.
 
-> Question 1: What was the unencrypted & plaintext CTF key?
+> **Question 1**: What was the unencrypted & plaintext CTF key?
 
-> Question 2: What was the basic authentication username and password?
+> **Question 2**: What was the basic authentication username and password?
 
-> Question 3: What was the primary API key found dynamically?
+> **Question 3**: What was the primary API key found dynamically?
 
-> Question 4: What was the information block of the CTF?
+> **Question 4**: What was the information block of the CTF?
 
-> Question 5: The first log in was crackable in two ways. One of those ways was to switch the logic of the program around. What did you need to do in order to switch it? Answer format - `I changed x to x at` where x is the instructions.
+> **Question 5**: The first log in was crackable in two ways. One of those ways was to switch the logic of the program around. What did you need to do in order to switch it? Answer format - `I changed x to x at` where x is the instructions.
 
-> Question 6: What security systems were used in this CTF?
+> **Question 6**: What security systems were used in this CTF?
 
-> Question 7: What was the authentication server where the HTTP auth was used?
+> **Question 7**: What was the authentication server where the HTTP auth was used?
 
-> Question 8: What protocol was the authentication server in?
+> **Question 8**: What protocol was the authentication server in?
 
-> Question 9: On the first login attempt, you may have noticed that the application already outputted that the login failed without you doing anything. What does this mean?
+> **Question 9**: On the first login attempt, you may have noticed that the application already outputted that the login failed without you doing anything. What does this mean?
 
-> Question 10: In the login system, there is no plaintext key that you can see. Instead, the key was integer-based. How did this key system work, what did it do, what was the value(s) of the key, and what was the final string key?
+> **Question 10**: In the login system, there is no plaintext key that you can see. Instead, the key was integer-based. How did this key system work, what did it do, what was the value(s) of the key, and what was the final string key?
 
-> Question 11: What `.text` address held the location of the comparison for the logged-in variable? Remember that this was the pre-set variable that was checked before the initial state of both the input and the button are rendered on the GUI. Tell me how you know this :D
+> **Question 12**: What `.text` address held the location of the comparison for the logged-in variable? Remember that this was the pre-set variable that was checked before the initial state of both the input and the button are rendered on the GUI. Tell me how you know this :D
 
-> Question 12:  What key was needed to exit and close the game cheat?
+> **Question 13**:  What key was needed to exit and close the game cheat?
 
