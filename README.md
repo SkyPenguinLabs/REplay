@@ -5,6 +5,15 @@ REplay is a high-end and low-profile gutted game cheat written in C++20 that was
 
 This is a game cheat, but after development, a copy of the source was made, driver code & exploit code was **mostly** removed and the mass amount of security systems were removed and replaced with basic checks. We then inserted the code with sets of sensitive information, hardcoded passkeys, algorithms, and more that can be used to practice reverse engineering. 
 
+# Running the CTF
+This GUI needs specific files to load (because the developer, Totally_Not_A_Haxxer) was lazy and did not rip out the offset requirement system. So, run the exe once and CMD will appear, then re run the file in the same exact directory before and then you should see the GUI pop up if the files exist in the directory. 
+
+These files are 
+
+* `client.dll.json`
+* `offsets.json`
+
+
 # Playing the CTF
 The CTF is simple to play. Simply load the EXE up and toss it into IDA or Ghidra for static analysis and a tool of your choice for dynamic analysis. Of course, we could not leave you without information. So here are some things you should know.
 
