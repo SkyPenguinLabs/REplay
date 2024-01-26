@@ -74,7 +74,7 @@ If you want to answer some questions, then here is a good map to do that with.
 
 > **Question 9**: On the first login attempt, you may have noticed that the application already outputted that the login failed without you doing anything. What does this mean?
 
-> **Question 10**: In the login system, there is no plaintext key that you can see. Instead, the key was integer-based. How did this key system work, what did it do, what was the value(s) of the key, and what was the final string key?
+> **Question 10**: (Difficult for beginners) In the login system, there is no plaintext key that you can see. Instead, the key was integer-based. How did this key system work, what did it do, what was the value(s) of the key, and what was the final string key?
 
 > **Question 12**: What `.text` address held the location of the comparison for the logged-in variable? Remember that this was the pre-set variable that was checked before the initial state of both the input and the button are rendered on the GUI. Tell me how you know this :D
 
