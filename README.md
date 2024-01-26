@@ -50,6 +50,7 @@ This CTF is an entire playground and there is more to reverse engineer than the 
 * 11: Find the integer based key used to compare the input license in the GUI. 
 * 12: Figure out where the pre-determined login statement is being made. This is the statement in which is outputted or drawn onto the GUI before the login button and the input box are rendered. 
 * 13: Find the hotkey that is used to exit the menu and kill the current process
+* 14: Crack the login system, do not just make it output that you were logged in
 
 > Quiz / Questions To Answer For Level 1 <br>
 
@@ -78,4 +79,6 @@ If you want to answer some questions, then here is a good map to do that with.
 > **Question 12**: What `.text` address held the location of the comparison for the logged-in variable? Remember that this was the pre-set variable that was checked before the initial state of both the input and the button are rendered on the GUI. Tell me how you know this :D
 
 > **Question 13**:  What key was needed to exit and close the game cheat?
+
+> **Question 14**:  Question 13: Question #5 was a loop hole,  you got the program to say you were logged in, but were never actually logged in. In order to fully make the program show you are logged in, you had to go down a rabbit hole to find some function that was returning a global status. This status was used every time you clicked a button, a new tab, etc that always checked the login status (which is the global status). What did you do to crack the login system to always render you as true? Note: you should also explain how the system works
 
