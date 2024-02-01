@@ -82,3 +82,7 @@ If you want to answer some questions, then here is a good map to do that with.
 
 > **Question 14**: Question #5 was a loop hole,  you got the program to say you were logged in, but were never actually logged in. In order to fully make the program show you are logged in, you had to go down a rabbit hole to find some function that was returning a global status. This status was used every time you clicked a button, a new tab, etc that always checked the login status (which is the global status). What did you do to crack the login system to always render you as true? Note: you should also explain how the system works
 
+## GitBook
+
+https://skypeguinsolutions.gitbook.io/replay-reverse-engineering-playground/introduction/levels/level-2
+
