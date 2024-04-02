@@ -1,0 +1,1 @@
+Completely solve every task within this level defined in <a href="https://skypeguinsolutions.gitbook.io/replay-reverse-engineering-playground/replay/writeups/level-2-all-walkthroughs">this</a> gitbook to complete this level of REplay! 
